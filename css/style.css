@@ -1,0 +1,55 @@
+/*Mapa*/
+.text-center {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.pindex {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.row {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.img-nos {
+  border: 6px solid beige;
+  margin: 15px;
+}
+.img-nos:hover {
+  padding: 5px;
+  transform: scale(2, 2);
+  transition: all 2s;
+}
+
+.h1-ind {
+  background-color: white;
+}
+
+body {
+  background-color: white;
+}
+
+.container-fluid, .h1-ind {
+  background-color: #e3f2fd;
+  border: 1px, solid, beige;
+}
+
+.h1-ind {
+  display: flex;
+}
+
+.img-head {
+  display: flex;
+}
+
+.pindex {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

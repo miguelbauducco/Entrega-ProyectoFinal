@@ -1,0 +1,11 @@
+.img-nos{
+    border: 6px solid beige;
+    margin: 15px;
+
+
+&:hover{
+    padding:5px;
+    transform: scale(2,2);
+    transition: all 2s;
+}
+}

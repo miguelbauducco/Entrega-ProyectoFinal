@@ -1,0 +1,199 @@
+
+.text-center {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: 'Questrial';
+}
+
+.pindex {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: 'Questrial';
+}
+
+.row {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.img-nos {
+  border: 6px solid black;
+  margin: 15px;
+}
+.img-nos:hover {
+  padding: 5px;
+  transform: scale(2, 2);
+  transition: all 2s;
+}
+
+
+body {
+  background-color: white;
+}
+
+.container-fluid, .h1-ind {
+  background-color: #e3f2fd;
+  border: 1px, solid, beige;
+  
+}
+h2{
+  font-style: italic;
+  font-family: 'Questrial';
+}
+.h1-ind {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin:5px;
+  font-style: italic;
+  font-size: 70px;
+  font-family: 'Questrial';
+}
+
+.img-head {
+  display: flex;
+  justify-content: center;
+}
+.h2-cat{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin:5px;
+  font-style: italic;
+  font-size: 70px;
+  font-family: 'Questrial';
+}
+.pindex {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-family: 'Questrial';
+}
+
+footer ul{
+  list-style-type: none;
+}
+  
+footer{
+  margin:20px;
+}
+
+.carousel-inner{
+  border: solid 5px black;
+}
+
+.h1-ind{
+  background-color: #59bfff;
+  border: 5px solid black;
+  text-align: center;
+  font-family: 'Questrial';
+}
+
+.navbar{
+  border: 2px solid black;
+}
+
+p{
+  font-family: 'Questrial';
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.h1-msj{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin:5px;
+  font-style: italic;
+  font-size: 70px;
+  font-family: 'Questrial';
+}
+
+.speaker-form{
+  background-color:#e3f2fd;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 80%;
+  margin: 0 0 40px 0;
+  padding: 50px 50px;
+}
+
+.form-row{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"]{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px
+}
+
+
+.form-row label{
+  margin-bottom: 15px;
+}
+
+.form-row textarea{
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 7px;
+  min-height: 200px;
+  min-width: 100%;
+  resize: none;     /* modificador de tamaño */
+}
+
+.form-row .instructions{
+  color: #999;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.form-row button{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5995da;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover{
+  background-color: #76aeed;
+}
+
+.form-row button:active{
+  background-color: #407fc7;
+}
+
+.body-form{
+  font-size: 18px;
+  line-height: 1.3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.row{
+  margin: 20px;
+}

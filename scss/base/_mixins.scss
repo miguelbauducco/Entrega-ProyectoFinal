@@ -1,0 +1,15 @@
+@mixin flexbox($flex){
+    display: $flex;
+}
+
+.h1-ind{
+    @include flexbox(flex)
+}
+
+.img-head{
+    @include flexbox(flex)
+}
+
+.pindex{
+    @include flexbox(flex)
+}
