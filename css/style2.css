@@ -29,9 +29,9 @@
   transition: all 2s;
 }
 
-
-body {
+body{
   background-color: white;
+  background-image: repeating-linear-gradient(white, #59bfff 170%);
 }
 
 .container-fluid, .h1-ind {
@@ -105,21 +105,21 @@ form{
   flex-direction: column;
 }
 
-.h1-msj{
+.h2-msj{
   display: flex;
   justify-content: center;
   padding: 20px;
   margin:5px;
   font-style: italic;
   font-size: 70px;
-  font-family: 'Questrial';
+  font-family: 'Questrial'
 }
 
 .speaker-form{
   background-color:#e3f2fd;
   border: 1px solid black;
   border-radius: 3px;
-  width: 80%;
+  width: 60%;
   margin: 0 0 40px 0;
   padding: 50px 50px;
 }
@@ -186,14 +186,49 @@ form{
 .body-form{
   font-size: 18px;
   line-height: 1.3;
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 
-
 .row{
   margin: 20px;
+}
+
+.exito-img-center{
+display: flex;
+justify-content: center;
+}
+
+.exito-img{
+  border: solid 4px black;
+  display: flex;
+  justify-content: center;
+}
+
+.tit-nos{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin:5px;
+  font-style: italic;
+  font-size: 70px;
+  font-family: 'Questrial'
+}
+
+.p-cont{
+  font-style: italic;
+  font-family: 'Questrial';
+  list-style: none;
+}
+
+.a-cont{
+  text-decoration: none;
+}
+
+.mail-footer{
+  font-style: italic;
+  font-family: 'Questrial';
+  font-size: 15px;
 }
