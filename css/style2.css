@@ -167,9 +167,9 @@ form{
 .form-row button{
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
-  background-color: #5995da;
-  border: none;
+  font-family: 'Questrial';
+  color: black;
+  background-color: #59bfff;
   border-radius: 3px;
   padding: 10px 40px;
   cursor: pointer;
