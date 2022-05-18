@@ -157,7 +157,7 @@ form{
   padding: 7px;
   min-height: 200px;
   min-width: 100%;
-  resize: none;     /* modificador de tamaño */
+  resize: none;     
 }
 
 .form-row .instructions{
@@ -233,4 +233,12 @@ justify-content: center;
   font-style: italic;
   font-family: 'Questrial';
   font-size: 15px;
+}
+
+.card{
+  border: solid 3px black;
+  font-family: 'Questrial';
+  font-style: italic;
+  background-color: white;
+  background-image: repeating-linear-gradient(white, #59bfff 35%);
 }
