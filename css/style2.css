@@ -130,6 +130,8 @@ form{
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
+  font-family: 'Questrial';
+  font-style: italic;
 }
 
 .form-row input[type="text"],
