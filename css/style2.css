@@ -242,3 +242,9 @@ justify-content: center;
   background-color: white;
   background-image: repeating-linear-gradient(white, #59bfff 35%);
 }
+
+@media (max-width:576px){
+  .card{
+    background-color: #59bfff;
+  }
+}
