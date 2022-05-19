@@ -284,7 +284,7 @@ a{
   }
 
   .pindex{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .card{
@@ -312,4 +312,5 @@ a{
   iframe{
     height: 300px;
   }
+
 }
