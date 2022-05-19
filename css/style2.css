@@ -242,6 +242,8 @@ justify-content: center;
   background-color: #76aeed;
 }
 
+/*MEDIAS QUERY*/
+
 @media screen and (max-width:576px) {
   
     .h1-ind{
@@ -290,4 +292,5 @@ justify-content: center;
   .card-text{
     font-size:20px;
   }
+
 }
