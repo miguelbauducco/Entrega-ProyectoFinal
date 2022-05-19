@@ -166,6 +166,7 @@ form{
   font-size: 14px;
 }
 
+
 .form-row button{
   font-size: 16px;
   font-weight: bold;
@@ -295,5 +296,6 @@ justify-content: center;
   .card-text{
     font-size:20px;
   }
+
 
 }
