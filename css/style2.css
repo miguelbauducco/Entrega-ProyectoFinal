@@ -249,7 +249,7 @@ justify-content: center;
     }
 
     .tit-nos{
-      font-size: 35px;
+      font-size: 30px;
     }
 
     .p-nos{
@@ -257,7 +257,7 @@ justify-content: center;
     }
     
     .h2-cat{
-      font-size: 35px;
+      font-size: 30px;
     }
   
     .p-cont{
@@ -265,11 +265,29 @@ justify-content: center;
     }
 
     .h2-msj{ 
-      font-size: 35px;
+      font-size: 30px;
   }
 
   .exito-img{
     width: 300px;
     height: 200px;
+  }
+
+  .pindex{
+    font-size: 30px;
+  }
+
+  .card{
+    width: 500px;
+  }
+  
+  
+
+  .card-title{
+    font-size:30px;
+  }
+
+  .card-text{
+    font-size:20px;
   }
 }
