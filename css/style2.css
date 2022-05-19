@@ -243,6 +243,12 @@ justify-content: center;
   background-color: #76aeed;
 }
 
+a{
+  font-family: 'Questrial';
+  font-style: italic;
+  text-align: center;
+}
+
 /*MEDIAS QUERY*/
 
 @media screen and (max-width:576px) {
