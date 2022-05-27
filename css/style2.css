@@ -252,6 +252,7 @@ a{
 
 .p-footer{
   font-style: italic;
+  font-size: 10px;
 }
 
 /*MEDIAS QUERY*/
@@ -315,6 +316,10 @@ a{
 
   iframe{
     height: 300px;
+  }
+
+  .p-footer{
+    font-size: 7px;
   }
 
 }
