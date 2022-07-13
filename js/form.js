@@ -32,9 +32,13 @@ contacto.push(contactos);
 
 console.dir(contacto);
 
-setTimeout(function() {
-    window.location.replace('exito.html')
-    
-}, 2000);
+sessionStorage.setItem('Nombre', nombre.value);
+sessionStorage.setItem('Email', correo.value);
+sessionStorage.setItem('Consulta', consulta.value);
+
+//setTimeout(function() {
+  //  window.location.replace('exito.html')
+    //
+//}, 2000);
 
 });
