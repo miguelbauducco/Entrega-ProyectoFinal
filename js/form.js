@@ -28,6 +28,9 @@ const contactos = {
     consulta : consulta.value,
 };
 
+const contJSON =  JSON.stringify(contactos);
+console.dir(contJSON);
+
 contacto.push(contactos);
 
 console.dir(contacto);
@@ -36,9 +39,13 @@ sessionStorage.setItem('Nombre', nombre.value);
 sessionStorage.setItem('Email', correo.value);
 sessionStorage.setItem('Consulta', consulta.value);
 
-//setTimeout(function() {
-  //  window.location.replace('exito.html')
-    //
-//}, 2000);
+
+setTimeout(function() {
+window.location.replace('exito.html');
+}, 1500);
+
+
 
 });
+
+
