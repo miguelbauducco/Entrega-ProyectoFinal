@@ -45,7 +45,8 @@ window.location.replace('exito.html');
 }, 1500);
 
 
-
 });
+
+
 
 
