@@ -10,15 +10,15 @@ formulario.addEventListener("submit", (event) => {
     event.preventDefault();
 
     if(nombre.value ===""){
-        console.log("debes completar este campo con tu nombre");
+        console.dir("debes completar este campo con tu nombre");
         return;
 
     }else if(correo.value === ""){
-        console.log("debes completar este campo con tu email");
+        console.dir("debes completar este campo con tu email");
         return;
 
     }else if(consulta.value === ""){
-        console.log("debes completar este campo con tu consulta");
+        console.dir("debes completar este campo con tu consulta");
         return;
     }
 
