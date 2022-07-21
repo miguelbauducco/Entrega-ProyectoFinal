@@ -16,10 +16,6 @@ formulario.addEventListener("submit", (event) => {
     }).showToast();
 
 
-
-
-
-
 const contactos = {
     nombre: nombre.value,
     email: correo.value,
