@@ -9,18 +9,16 @@ formulario.addEventListener("submit", (event) => {
 
     event.preventDefault();
 
-    if(nombre.value ===""){
-        console.log("debes completar este campo con tu nombre");
-        return;
+    Toastify({
+        text: "Formulario completado, gracias!",
+        className: "info",
+        duration: 2500,
+    }).showToast();
 
-    }else if(correo.value === ""){
-        console.log("debes completar este campo con tu email");
-        return;
 
-    }else if(consulta.value === ""){
-        console.log("debes completar este campo con tu consulta");
-        return;
-    }
+
+
+
 
 const contactos = {
     nombre: nombre.value,
@@ -46,6 +44,7 @@ window.location.replace('exito.html');
 
 
 });
+
 
 
 

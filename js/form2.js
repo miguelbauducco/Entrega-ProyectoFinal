@@ -14,6 +14,8 @@ h2Element.innerText = `Gracias por tu consulta, ${nombreCartel}`;
 
 divCliente.append(h2Element);
 
+
 }
 
 cartel();
+
