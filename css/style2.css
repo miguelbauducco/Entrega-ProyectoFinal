@@ -255,6 +255,13 @@ a{
   font-size: 10px;
 }
 
+.toastify{
+  background-color: #76aeed;
+  font-family: 'Questrial';
+  font-size: 20px;
+  font-style: italic;
+}
+
 
       /*timeline clases*/
 

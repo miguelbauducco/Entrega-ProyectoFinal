@@ -10,9 +10,9 @@ formulario.addEventListener("submit", (event) => {
     event.preventDefault();
 
     Toastify({
-        text: "Formulario completado, gracias!",
-        className: "info",
-        duration: 2500,
+        text: "Formulario completado, ¡muchas gracias!",
+        className: "toastify",
+        duration: 3000,
     }).showToast();
 
 
