@@ -34,6 +34,14 @@ sessionStorage.setItem('Email', correo.value);
 sessionStorage.setItem('Consulta', consulta.value);
 
 
+emailjs.send("service_c5g75jb","template_kpx2u6o",{
+    from_name: contactos.nombre,
+    to_name: "KreviskyAutos",
+    message: contactos.consulta,
+    reply_to: contactos.email,
+    });
+
+
 setTimeout(function() {
 window.location.replace('exito.html');
 }, 1500);
