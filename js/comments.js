@@ -2,24 +2,23 @@
 
 const clienteName = document.getElementById("clientename");
 
-const clientComment= async() => {
+const h5Element = document.createElement("h5");
 
-    const resp=await
+let nombre;
+
+function traerCliente(){
 
     fetch("https://rickandmortyapi.com/api/character/2")
+    .then ( (response) =>
+    response.json()
+    )
+    .then ((json) => console.log(json.name));
 
-    const data = await resp.json()
-
-        data.forEach((post) => {
-
-            const h5Element = document.createElement('h5')
-
-        h5Element.innerHTML = `<h5>${post.name}</h5>`
-
-        clienteName.append(h5)
-
-        })
+    h5Element.innerHTML = JSON.name;
 
 }
 
-clientComment();
+traerCliente();
+
+
+clienteName.append(h5Element);
