@@ -6,7 +6,7 @@ const clientComment= async() => {
 
     const resp=await
 
-    fetch("https://rickandmortyapi.com/api/character/2/name")
+    fetch("https://rickandmortyapi.com/api/character/2")
 
     const data = await resp.json()
 
