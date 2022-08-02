@@ -2,7 +2,6 @@
 //MENSAJE DE EXITO CON NOMBRE DE CLIENTE
 
 
-
 function cartel(){
 
 let divCliente = document.getElementById("cliente");
