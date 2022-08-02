@@ -4,7 +4,6 @@ const clienteName1 = document.getElementById("clientename1");
 const clienteName2 = document.getElementById("clientename2");
 const clienteName3 = document.getElementById("clientename3");
 
-
 const h5Element1 = document.createElement("h5");
 const h5Element2 = document.createElement("h5");
 const h5Element3 = document.createElement("h5");
