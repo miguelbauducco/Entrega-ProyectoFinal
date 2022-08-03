@@ -1,4 +1,4 @@
-//UTILIZACION DE FETCH
+//UTILIZACION DE FETCH PARA NOMBRE DE CLIENTES EN COMENTARIOS - NOSOTROS.HTML
 
 const clienteName1 = document.getElementById("clientename1");
 const clienteName2 = document.getElementById("clientename2");
